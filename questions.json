@@ -1,0 +1,1048 @@
+{
+    "informatique": {
+        "facile": [
+            {
+                "question": "Quel langage est principalement utilisé pour le développement web côté client ?",
+                "options": ["Python", "Java", "JavaScript", "C++"],
+                "correct": 2
+            },
+            {
+                "question": "Que signifie HTML ?",
+                "options": ["HyperText Markup Language", "High Tech Multi Language", "Hyper Transfer Machine", "Home Tool Markup"],
+                "correct": 0
+            },
+            {
+                "question": "Quel protocole est utilisé pour sécuriser les sites web (cadenas vert) ?",
+                "options": ["HTTP", "FTP", "HTTPS", "SMTP"],
+                "correct": 2
+            },
+            {
+                "question": "Quel composant est considéré comme le 'cerveau' de l'ordinateur ?",
+                "options": ["La carte graphique", "Le processeur (CPU)", "Le disque dur", "La mémoire RAM"],
+                "correct": 1
+            },
+            {
+                "question": "Lequel de ces systèmes d'exploitation est open source ?",
+                "options": ["Windows", "macOS", "Linux", "iOS"],
+                "correct": 2
+            },
+            {
+                "question": "Quel sigle désigne la mémoire vive volatile d'un ordinateur ?",
+                "options": ["ROM", "RAM", "SSD", "HDD"],
+                "correct": 1
+            },
+            {
+                "question": "Quel langage est couramment utilisé pour l'intelligence artificielle et la data science ?",
+                "options": ["Python", "HTML", "CSS", "SQL"],
+                "correct": 0
+            },
+            {
+                "question": "Comment appelle-t-on un logiciel malveillant ?",
+                "options": ["Un firewall", "Un malware", "Un patch", "Un cookie"],
+                "correct": 1
+            },
+            {
+                "question": "Quel symbole est utilisé pour insérer des commentaires sur une seule ligne en Python ?",
+                "options": ["//", "/*", "#", "<!--"],
+                "correct": 2
+            },
+            {
+                "question": "Quel est le rôle principal d'un navigateur web ?",
+                "options": ["Stocker des fichiers", "Afficher des pages web", "Créer des bases de données", "Compiler du code binaire"],
+                "correct": 1
+            },
+            {
+                "question": "Quel format d'image utilise la transparence de manière native sans perte ?",
+                "options": ["JPEG", "PNG", "BMP", "GIF"],
+                "correct": 1
+            },
+            {
+                "question": "Que signifie l'acronyme URL ?",
+                "options": ["Uniform Resource Locator", "Universal Radio Link", "Unified Retrieval Logic", "User Remote Login"],
+                "correct": 0
+            },
+            {
+                "question": "Lequel de ces éléments n'est pas un langage de programmation ?",
+                "options": ["Ruby", "HTML", "Swift", "Kotlin"],
+                "correct": 1
+            },
+            {
+                "question": "Quelle commande Git permet de récupérer les derniers changements d'un dépôt distant ?",
+                "options": ["git push", "git commit", "git pull", "git status"],
+                "correct": 2
+            },
+            {
+                "question": "Quel type de base de données stocke les informations sous forme de tables et de lignes ?",
+                "options": ["Relationnelle (SQL)", "Non relationnelle (NoSQL)", "Graph", "Orientée objet"],
+                "correct": 0
+            },
+            {
+                "question": "Qu'est-ce qu'un disque SSD par rapport à un HDD traditionnel ?",
+                "options": ["Plus lent et magnétique", "Plus rapide et sans pièces mécaniques", "Plus fragile et volumineux", "Uniquement externe"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est le port réseau standard par défaut pour le trafic HTTP non sécurisé ?",
+                "options": ["21", "80", "443", "3306"],
+                "correct": 1
+            },
+            {
+                "question": "Dans quel langage utilise-t-on la fonction 'print()' pour afficher du texte ?",
+                "options": ["Java", "C++", "Python", "PHP"],
+                "correct": 2
+            },
+            {
+                "question": "Quel outil de versioning a été créé par Linus Torvalds ?",
+                "options": ["SVN", "Mercurial", "Git", "CVS"],
+                "correct": 2
+            },
+            {
+                "question": "Que signifie l'abréviation 'IP' dans Adresse IP ?",
+                "options": ["Internal Process", "Internet Protocol", "Information Provider", "Index Page"],
+                "correct": 1
+            },
+            {
+                "question": "Quel langage de style est utilisé pour mettre en forme les pages web ?",
+                "options": ["CSS", "PHP", "SQL", "Python"],
+                "correct": 0
+            },
+            {
+                "question": "Comment appelle-t-on une structure de données de type 'Premier entré, premier sorti' ?",
+                "options": ["Une pile (Stack)", "Une file (Queue)", "Un arbre", "Une table de hachage"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est l'équivalent de 1 ko (kilooctet) en octets dans le système décimal classique ?",
+                "options": ["100 octets", "1000 octets", "1024 octets", "2048 octets"],
+                "correct": 1
+            },
+            {
+                "question": "Quelle entreprise développe le système d'exploitation mobile Android ?",
+                "options": ["Apple", "Microsoft", "Google", "IBM"],
+                "correct": 2
+            },
+            {
+                "question": "Quel est le rôle d'une balise `<title>` en HTML ?",
+                "options": ["Afficher un titre dans le corps de la page", "Définir le titre de l'onglet du navigateur", "Créer un grand titre H1", "Mettre le texte en gras"],
+                "correct": 1
+            },
+            {
+                "question": "Quelle touche du clavier permet généralement d'annuler la dernière action (Undo) ?",
+                "options": ["Ctrl + C", "Ctrl + V", "Ctrl + Z", "Ctrl + X"],
+                "correct": 2
+            },
+            {
+                "question": "Quel langage est principalement utilisé pour interroger des bases de données relationnelles ?",
+                "options": ["HTML", "SQL", "CSS", "XML"],
+                "correct": 1
+            },
+            {
+                "question": "Que désigne le terme 'Open Source' ?",
+                "options": ["Un logiciel payant", "Un code source accessible et modifiable par tous", "Un virus informatique", "Un système obsolète"],
+                "correct": 1
+            },
+            {
+                "question": "Quel composant gère l'affichage graphique sur un écran de PC de jeu ?",
+                "options": ["La carte mère", "Le processeur", "La carte graphique (GPU)", "L'alimentation"],
+                "correct": 2
+            },
+            {
+                "question": "Quel est l'attribut HTML utilisé pour ajouter un lien hypertextuel ?",
+                "options": ["src", "href", "link", "url"],
+                "correct": 1
+            },
+            {
+                "question": "Comment appelle-t-on le premier microprocesseur commercialisé par Intel en 1971 ?",
+                "options": ["Intel 4004", "Intel 8086", "Pentium 1", "Core i7"],
+                "correct": 0
+            },
+            {
+                "question": "Quel protocole est utilisé pour envoyer des e-mails ?",
+                "options": ["POP3", "IMAP", "SMTP", "HTTP"],
+                "correct": 2
+            },
+            {
+                "question": "Quelle est l'extension par défaut des fichiers de script JavaScript ?",
+                "options": [".py", ".html", ".js", ".java"],
+                "correct": 2
+            },
+            {
+                "question": "Quel système d'exploitation mobile équipe les iPhone d'Apple ?",
+                "options": ["Android", "iOS", "Windows Phone", "BlackBerry OS"],
+                "correct": 1
+            },
+            {
+                "question": "Qu'est-ce qu'un bug informatique ?",
+                "options": ["Une amélioration du code", "Une erreur ou un dysfonctionnement", "Un type de câble réseau", "Un composant matériel"],
+                "correct": 1
+            },
+            {
+                "question": "Quel langage est principalement utilisé pour le développement natif sur iOS avant Swift ?",
+                "options": ["Objective-C", "C#", "Ruby", "Perl"],
+                "correct": 0
+            },
+            {
+                "question": "Quel est le nom du protocole sécurisé de transfert de fichiers basé sur SSH ?",
+                "options": ["FTP", "SFTP", "TFTP", "HTTP"],
+                "correct": 1
+            },
+            {
+                "question": "Dans quel type de stockage les données persistent-elles même après extinction de l'appareil ?",
+                "options": ["Mémoire RAM", "Cache L3", "Stockage permanent (SSD/HDD)", "Registre CPU"],
+                "correct": 2
+            },
+            {
+                "question": "Quel est le raccourci clavier universel pour copier du texte ?",
+                "options": ["Ctrl + C", "Ctrl + V", "Ctrl + A", "Ctrl + S"],
+                "correct": 0
+            },
+            {
+                "question": "Quel langage de balisage léger est souvent utilisé pour la documentation et les fichiers README ?",
+                "options": ["Markdown", "LaTeX", "HTML", "JSON"],
+                "correct": 0
+            },
+            {
+                "question": "Quel composant relie tous les autres composants d'un ordinateur entre eux ?",
+                "options": ["Le disque dur", "La carte mère", "L'alimentation", "Le ventilateur"],
+                "correct": 1
+            },
+            {
+                "question": "Quelle balise HTML est utilisée pour insérer une image ?",
+                "options": ["<image>", "<img>", "<pic>", "<src>"],
+                "correct": 1
+            },
+            {
+                "question": "Quel terme désigne un réseau informatique mondial interconnecté ?",
+                "options": ["Intranet", "Extranet", "Internet", "Ethernet"],
+                "correct": 2
+            },
+            {
+                "question": "Quel langage est requis pour structurer le contenu d'une page web ?",
+                "options": ["CSS", "HTML", "SQL", "Python"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est le symbole de l'opérateur logique 'ET' (AND) dans de nombreux langages de programmation ?",
+                "options": ["||", "&&", "!", "=="],
+                "correct": 1
+            },
+            {
+                "question": "Quel terme qualifie une attaque informatique visant à saturer un serveur ?",
+                "options": ["Phishing", "DDoS", "Spam", "Ransomware"],
+                "correct": 1
+            },
+            {
+                "question": "Quel format de données textuelles léger est très utilisé pour les API web ?",
+                "options": ["CSV", "JSON", "XML", "TXT"],
+                "correct": 1
+            },
+            {
+                "question": "Quelle est la fonction principale d'un routeur informatique ?",
+                "options": ["Imprimer des documents", "Diriger les paquets de données entre réseaux", "Stocker des mots de passe", "Afficher des graphiques 3D"],
+                "correct": 1
+            },
+            {
+                "question": "Quel logiciel de versioning utilise le concept de 'commit' et de 'branch' ?",
+                "options": ["Excel", "Git", "Photoshop", "Notepad++"],
+                "correct": 1
+            },
+            {
+                "question": "Comment appelle-t-on l'unité de mesure de la vitesse d'horloge d'un processeur ?",
+                "options": ["Les Watts", "Les Hertz (Hz)", "Les Bits", "Les Joules"],
+                "correct": 1
+            }
+        ],
+        "moyen": [
+            {
+                "question": "Lequel de ces frameworks appartient à l'écosystème Python ?",
+                "options": ["Laravel", "Django", "React", "Spring Boot"],
+                "correct": 1
+            },
+            {
+                "question": "Quel principe de programmation orientée objet consiste à cacher les détails internes d'un objet ?",
+                "options": ["L'héritage", "Le polymorphisme", "L'encapsulation", "L'instanciation"],
+                "correct": 2
+            },
+            {
+                "question": "Quel design pattern garantit qu'une classe n'a qu'une seule instance et fournit un point d'accès global à cette instance ?",
+                "options": ["Factory", "Singleton", "Observer", "Builder"],
+                "correct": 1
+            },
+            {
+                "question": "Quelle structure de données utilise le principe 'Dernier entré, premier sorti' (LIFO) ?",
+                "options": ["Une file (Queue)", "Une pile (Stack)", "Un tableau associatif", "Un graphe"],
+                "correct": 1
+            },
+            {
+                "question": "Quel protocole de la couche transport est orienté connexion et garantit la livraison des données ?",
+                "options": ["UDP", "TCP", "IP", "ICMP"],
+                "correct": 1
+            },
+            {
+                "question": "Dans le modèle OSI, à quelle couche appartient le protocole IP ?",
+                "options": ["Couche 1 (Physique)", "Couche 2 (Liaison)", "Couche 3 (Réseau)", "Couche 4 (Transport)"],
+                "correct": 2
+            },
+            {
+                "question": "Quelle commande SQL permet de supprimer définitivement une table entière ?",
+                "options": ["DELETE", "DROP TABLE", "REMOVE TABLE", "TRUNCATE CLEAR"],
+                "correct": 1
+            },
+            {
+                "question": "Quel mot-clé en JavaScript permet de déclarer une variable dont la valeur ne peut pas être réassignée ?",
+                "options": ["var", "let", "const", "static"],
+                "correct": 2
+            },
+            {
+                "question": "Quelle complexité algorithmique représente la recherche binaire dans un tableau trié ?",
+                "options": ["O(n)", "O(n^2)", "O(log n)", "O(1)"],
+                "correct": 2
+            },
+            {
+                "question": "Quel est le principal avantage d'utiliser une architecture de type REST pour des API ?",
+                "options": ["L'absence totale de sécurité", "L'indépendance client-serveur et l'utilisation de HTTP", "La liaison obligatoire avec Java", "Le stockage local des données"],
+                "correct": 1
+            },
+            {
+                "question": "Que signifie l'acronyme AJAX en développement web ?",
+                "options": ["Asynchronous JavaScript and XML", "Advanced Java and XHTML", "Automated JSON API Exchange", "Application JavaScript Extension"],
+                "correct": 0
+            },
+            {
+                "question": "Quel type de jointure SQL retourne tous les enregistrements lorsqu'il y a une correspondance dans l'une ou l'autre des tables ?",
+                "options": ["INNER JOIN", "LEFT JOIN", "FULL OUTER JOIN", "CROSS JOIN"],
+                "correct": 2
+            },
+            {
+                "question": "Quel est le rôle du composant Virtual DOM utilisé par React ?",
+                "options": ["Remplacer complètement le serveur", "Optimiser les performances en minimisant les accès directs au DOM réel", "Gérer les bases de données SQL", "Compiler le code en C++"],
+                "correct": 1
+            },
+            {
+                "question": "Lequel de ces langages est un langage typé statiquement ?",
+                "options": ["Python", "JavaScript", "TypeScript", "PHP"],
+                "correct": 2
+            },
+            {
+                "question": "Dans une base de données relationnelle, à quoi sert une clé étrangère (Foreign Key) ?",
+                "options": ["À identifier de manière unique chaque ligne", "À lier une table à une autre table", "À chiffrer les mots de passe", "À accélérer les tris alphabétiques"],
+                "correct": 1
+            },
+            {
+                "question": "Quel protocole sécurise les communications de messagerie électronique (chiffrement de bout en bout) ?",
+                "options": ["POP3", "IMAP", "PGP / GPG", "SNMP"],
+                "correct": 2
+            },
+            {
+                "question": "Que fait la méthode `Array.prototype.map()` en JavaScript ?",
+                "options": ["Elle filtre les éléments selon une condition", "Elle transforme chaque élément d'un tableau et retourne un nouveau tableau", "Elle modifie le tableau original en place", "Elle réduit le tableau à une seule valeur"],
+                "correct": 1
+            },
+            {
+                "question": "Quel outil de conteneurisation est le plus largement utilisé dans l'industrie ?",
+                "options": ["Vagrant", "Docker", "VirtualBox", "Ansible"],
+                "correct": 1
+            },
+            {
+                "question": "Qu'est-ce qu'une attaque par injection SQL ?",
+                "options": ["Une surcharge du serveur par des requêtes massives", "L'insertion de code malveillant dans une requête de base de données", "Le vol de mots de passe par écoute du réseau", "L'altération de fichiers CSS"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est le rôle d'un fichier `requirements.txt` dans un projet Python ?",
+                "options": ["Lister les dépendances et bibliothèques du projet", "Configurer la base de données", "Stocker les identifiants administrateur", "Écrire les tests unitaires"],
+                "correct": 0
+            },
+            {
+                "question": "Quel concept de programmation permet à une fonction de s'appeler elle-même ?",
+                "options": ["L'itération", "La récursivité", "Le encapsulage", "Le bouclage"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est l'objectif principal de la normalisation d'une base de données ?",
+                "options": ["Augmenter la redondance des données", "Réduire la redondance et éviter les anomalies de mise à jour", "Ralentir les requêtes complexes", "Supprimer l'utilisation des index"],
+                "correct": 1
+            },
+            {
+                "question": "Dans le développement web, que signifie le sigle CSS ?",
+                "options": ["Computer Style Sheet", "Cascading Style Sheets", "Creative Style System", "Colorful Scripting Standard"],
+                "correct": 1
+            },
+            {
+                "question": "Quel protocole de routage dynamique est basé sur l'algorithme de vecteur de distances ?",
+                "options": ["OSPF", "RIP", "BGP", "IS-IS"],
+                "correct": 1
+            },
+            {
+                "question": "Quelle est la particularité d'un protocole asynchrone en programmation ?",
+                "options": ["Il bloque l'exécution du programme jusqu'à la fin de la tâche", "Il permet d'exécuter d'autres tâches en attendant qu'une opération longue se termine", "Il ne fonctionne que sur un seul cœur de processeur", "Il supprime les erreurs de syntaxe"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est le nom de l'architecture logicielle qui sépare l'application en trois composants interconnectés : Modèle, Vue, Contrôleur ?",
+                "options": ["MVVM", "MVC", "MVI", "ORM"],
+                "correct": 1
+            },
+            {
+                "question": "Quel service Cloud d'Amazon est le plus populaire pour le stockage d'objets (fichiers, images) ?",
+                "options": ["Amazon EC2", "Amazon S3", "Amazon RDS", "Amazon Lambda"],
+                "correct": 1
+            },
+            {
+                "question": "Quelle commande Git permet de fusionner une branche avec la branche courante ?",
+                "options": ["git branch", "git checkout", "git merge", "git stash"],
+                "correct": 2
+            },
+            {
+                "question": "Quel est l'effet de la commande `chmod 755` sur un fichier sous Linux ?",
+                "options": ["Lecture seule pour tous", "Tous les droits pour le propriétaire, lecture et exécution pour les autres", "Suppression définitive du fichier", "Chiffrement du fichier"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est l'intérêt d'utiliser un index sur une colonne de base de données ?",
+                "options": ["Diminuer l'espace de stockage", "Accélérer les opérations de recherche (SELECT)", "Ralentir les insertions pour plus de sécurité", "Empêcher les doublons automatiquement"],
+                "correct": 1
+            },
+            {
+                "question": "Qu'est-ce qu'un cookie HTTP ?",
+                "options": ["Un fichier malveillant obligatoire", "Un petit fichier texte stocké sur le navigateur par le serveur", "Un protocole de chiffrement réseau", "Un langage de programmation"],
+                "correct": 1
+            },
+            {
+                "question": "Quel type de test logiciel valide le comportement d'un module ou d'une fonction de manière isolée ?",
+                "options": ["Test d'acceptation", "Test unitaire", "Test d'intégration", "Test end-to-end"],
+                "correct": 1
+            },
+            {
+                "question": "Quel protocole réseau est utilisé pour attribuer automatiquement des adresses IP aux machines ?",
+                "options": ["DNS", "DHCP", "FTP", "SNMP"],
+                "correct": 1
+            },
+            {
+                "question": "Dans le langage C, quel opérateur est utilisé pour accéder à la valeur pointée par un pointeur ?",
+                "options": ["&", "*", "->", "."],
+                "correct": 1
+            },
+            {
+                "question": "Quel est l'objectif d'un proxy inverse (reverse proxy) comme Nginx ?",
+                "options": ["Cacher l'identité des clients sur Internet", "Intercepter et répartir les requêtes entrantes vers les serveurs backend", "Bloquer tous les langages de script", "Remplacer la base de données"],
+                "correct": 1
+            },
+            {
+                "question": "Quel standard d'authentification utilise des jetons signés numériquement contenant des données JSON ?",
+                "options": ["OAuth 1.0", "JWT (JSON Web Token)", "Basic Auth", "SAML 1.1"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est le rôle d'un ORM (Object-Relational Mapping) comme Hibernate ou Django ORM ?",
+                "options": ["Traduire les requêtes SQL en objets manipulables dans le langage de programmation", "Optimiser la vitesse du processeur", "Gérer les connexions Wi-Fi", "Créer des interfaces graphiques utilisateur"],
+                "correct": 0
+            },
+            {
+                "question": "Quelle est la principale différence entre TCP et UDP ?",
+                "options": ["TCP est plus rapide mais non fiable, UDP est fiable", "TCP est orienté connexion et fiable, UDP est sans connexion et rapide", "UDP chiffre les données, TCP non", "Il n'y a aucune différence technique"],
+                "correct": 1
+            },
+            {
+                "question": "Quel outil permet d'automatiser l'intégration continue et le déploiement continu (CI/CD) ?",
+                "options": ["Jenkins", "Sublime Text", "MySQL", "Photoshop"],
+                "correct": 0
+            },
+            {
+                "question": "Que signifie l'acronyme API ?",
+                "options": ["Application Programming Interface", "Advanced Program Integration", "Automated Protocol Interaction", "Application Process Integration"],
+                "correct": 0
+            },
+            {
+                "question": "Dans le contexte des bases de données, que garantissent les propriétés ACID ?",
+                "options": ["La rapidité maximale des requêtes", "La fiabilité des transactions (Atomicité, Cohérence, Isolation, Durabilité)", "Le chiffrement automatique des disques", "L'optimisation de l'espace disque"],
+                "correct": 1
+            },
+            {
+                "question": "Quel protocole sécurise le trafic web en remplaçant HTTP par une couche cryptographique (TLS) ?",
+                "options": ["FTP", "HTTPS", "SSH", "Telnet"],
+                "correct": 1
+            },
+            {
+                "question": "Quel composant d'une architecture microservices sert de point d'entrée unique pour les clients ?",
+                "options": ["API Gateway", "Load Balancer interne", "Base de données centrale", "Serveur DNS"],
+                "correct": 0
+            },
+            {
+                "question": "Comment appelle-t-on une fonction en JavaScript qui n'a pas de nom et est souvent passée en argument ?",
+                "options": ["Une fonction pure", "Une fonction fléchée / anonyme", "Une fonction récursive", "Une closure globale"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est le rôle d'un pare-feu (Firewall) ?",
+                "options": ["Accélérer la connexion Internet", "Filtrer et contrôler le trafic réseau entrant et sortant selon des règles de sécurité", "Protéger physiquement l'ordinateur contre la chaleur", "Sauvegarder les fichiers système"],
+                "correct": 1
+            },
+            {
+                "question": "Quel langage de requête est spécifiquement conçu pour manipuler des documents dans MongoDB ?",
+                "options": ["SQL", "MongoDB Query Language (MQL / méthodes JS)", "PL/SQL", "CQL"],
+                "correct": 1
+            },
+            {
+                "question": "Quelle est la signification de l'acronyme IDE en programmation ?",
+                "options": ["Interface de Développement Externe", "Integrated Development Environment", "Internet Data Exchange", "Internal Design Engine"],
+                "correct": 1
+            },
+            {
+                "question": "Quel design pattern comportemental permet de définir une souscription pour notifier plusieurs objets d'un changement d'état ?",
+                "options": ["Singleton", "Observer", "Adapter", "Strategy"],
+                "correct": 1
+            },
+            {
+                "question": "Quel outil de gestion de versions héberge des millions de dépôts Git en ligne (acquis par Microsoft) ?",
+                "options": ["GitHub", "Bitbucket", "GitLab", "SourceForge"],
+                "correct": 0
+            },
+            {
+                "question": "Quel est le comportement d'une variable déclarée avec `let` en JavaScript en termes de portée (scope) ?",
+                "options": ["Portée globale uniquement", "Portée de bloc (block scope)", "Portée de fonction uniquement", "Pas de portée définie"],
+                "correct": 1
+            },
+            {
+                "question": "Quel type d'attaque consiste à intercepter les communications entre deux parties à leur insu ?",
+                "options": ["Man-in-the-Middle (MitM)", "DDoS", "Brute Force", "SQL Injection"],
+                "correct": 0
+            },
+            {
+                "question": "Quel protocole utilise le port 22 par défaut pour l'administration à distance sécurisée ?",
+                "options": ["Telnet", "SSH", "FTP", "RDP"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est l'intérêt d'utiliser des variables d'environnement (.env) dans une application ?",
+                "options": ["Accélérer le code source", "Isoler les données sensibles et la configuration propre à chaque environnement", "Rendre le code compatible avec tous les navigateurs", "Réduire la taille du code compilé"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est le rôle d'un répartiteur de charge (Load Balancer) ?",
+                "options": ["Stocker les données en double", "Distribuer le trafic entrant sur plusieurs serveurs pour éviter la surcharge", "Analyser les virus dans les emails", "Gérer les noms de domaine"],
+                "correct": 1
+            },
+            {
+                "question": "Quel algorithme de hachage cryptographique est aujourd'hui considéré comme obsolète et non sécurisé pour les mots de passe ?",
+                "options": ["bcrypt", "Argon2", "MD5", "SHA-256"],
+                "correct": 2
+            },
+            {
+                "question": "Quelle est la principale caractéristique d'une fonction pure en programmation fonctionnelle ?",
+                "options": ["Elle modifie les variables globales", "Elle produit toujours le même résultat pour les mêmes arguments et n'a pas d'effets de bord", "Elle utilise obligatoirement une base de données", "Elle ne peut pas accepter de paramètres"],
+                "correct": 1
+            },
+            {
+                "question": "Quel format d'échange de données structurées basé sur des balises a précédé massivement le JSON dans les architectures d'entreprise ?",
+                "options": ["CSV", "XML", "YAML", "INI"],
+                "correct": 1
+            },
+            {
+                "question": "Dans quel cas utilise-t-on une structure de données de type 'Table de hachage' (Hash Table / Dictionary) ?",
+                "options": ["Pour un accès rapide aux éléments par clé/valeur", "Pour trier des éléments par ordre alphabétique strict sans clé", "Pour empiler des données LIFO", "Pour créer une liste chaînée linéaire"],
+                "correct": 0
+            },
+            {
+                "question": "Quel est l'objectif d'un test de charge (Load Testing) ?",
+                "options": ["Vérifier la logique métier d'une fonction", "Évaluer le comportement d'une application sous une forte affluence d'utilisateurs", "Corriger les fautes d'orthographe de l'interface", "Tester la compatibilité des navigateurs mobiles"],
+                "correct": 1
+            },
+            {
+                "question": "Quel terme désigne la capacité d'un système à s'étendre (ajouter des ressources) pour faire face à une charge accrue ?",
+                "options": ["La scalabilité (évolutivité)", "La latence", "La modularité", "La persistance"],
+                "correct": 0
+            },
+            {
+                "question": "Quel protocole réseau léger est très utilisé dans l'Internet des Objets (IoT) pour la communication publish/subscribe ?",
+                "options": ["HTTP", "MQTT", "FTP", "SMTP"],
+                "correct": 1
+            },
+            {
+                "question": "Qu'est-ce qu'un deadlock (interblocage) en programmation concurrente ?",
+                "options": ["Un plantage instantané du processeur", "Une situation où deux processus ou plus attendent indéfiniment des ressources détenues l'un par l'autre", "Une suppression accidentelle de la base de données", "Une erreur de syntaxe à la compilation"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est le rôle d'un compilateur par rapport à un interpréteur ?",
+                "options": ["Le compilateur traduit tout le code source en code machine avant l'exécution, l'interprète le lit ligne par ligne à la volée", "L'interpréteur est toujours plus rapide que le compilateur", "Le compilateur sert uniquement pour le HTML", "Il n'y a aucune différence"],
+                "correct": 0
+            },
+            {
+                "question": "Quel concept de sécurité informatique consiste à limiter les privilèges d'accès d'un utilisateur ou d'un processus au strict minimum nécessaire ?",
+                "options": ["Le principe du moindre privilège", "L'authentification multifacteur", "Le chiffrement de bout en bout", "La sécurité par l'obscurité"],
+                "correct": 0
+            },
+            {
+                "question": "Quel langage de script est universellement utilisé pour l'automatisation des tâches système sous Linux/Unix ?",
+                "options": ["Bash / Shell", "Swift", "C#", "Ruby"],
+                "correct": 0
+            },
+            {
+                "question": "Quel design pattern de création permet de construire des objets complexes étape par étape ?",
+                "options": ["Builder", "Singleton", "Prototype", "Facade"],
+                "correct": 0
+            },
+            {
+                "question": "Dans le contexte des services web, que signifie le code de statut HTTP 404 ?",
+                "options": ["Erreur interne du serveur", "Ressource non trouvée", "Accès non autorisé", "Requête réussie"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est l'avantage majeur d'une base de données NoSQL orientée documents comme MongoDB ?",
+                "options": ["Un schéma de données rigide et strict", "La flexibilité d'un schéma dynamique et non structuré", "L'obligation d'utiliser des jointures complexes", "Un coût matériel toujours nul"],
+                "correct": 1
+            },
+            {
+                "question": "Quel outil de test d'API permet d'envoyer des requêtes HTTP (GET, POST, etc.) de manière graphique ?",
+                "options": ["Postman", "Photoshop", "Notepad", "FileZilla"],
+                "correct": 0
+            },
+            {
+                "question": "Quel est l'objectif d'une fonction de hachage cryptographique ?",
+                "options": ["Chiffrer un message pour pouvoir le déchiffrer plus tard", "Transformer des données de taille quelconque en une empreinte numérique de taille fixe de manière irréversible", "Compresser des fichiers audio", "Trier des tableaux d'entiers"],
+                "correct": 1
+            },
+            {
+                "question": "Quel protocole réseau est utilisé pour synchroniser l'horloge des ordinateurs sur un réseau ?",
+                "options": ["NTP (Network Time Protocol)", "DHCP", "DNS", "SNMP"],
+                "correct": 0
+            },
+            {
+                "question": "Qu'est-ce qu'une fuite de mémoire (memory leak) dans un programme ?",
+                "options": ["Une coupure de courant inopinée", "De la mémoire allouée dynamiquement qui n'est plus libérée alors qu'elle n'est plus utilisée", "Une suppression de fichier sur le disque dur", "Un piratage de la RAM à distance"],
+                "correct": 1
+            },
+            {
+                "question": "Dans Git, quelle commande permet de créer et de basculer immédiatement vers une nouvelle branche ?",
+                "options": ["git branch", "git checkout -b (ou git switch -c)", "git commit -m", "git push origin"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est le rôle principal d'un serveur DNS ?",
+                "options": ["Stocker les pages web des sites", "Traduire les noms de domaine lisibles en adresses IP", "Sécuriser les transactions bancaires", "Gérer les adresses MAC des cartes réseau"],
+                "correct": 1
+            },
+            {
+                "question": "Quel paradigme de programmation met l'accent sur l'utilisation d'objets contenant des données et des méthodes ?",
+                "options": ["Programmation fonctionnelle", "Programmation orientée objet", "Programmation linéaire", "Programmation impérative pure"],
+                "correct": 1
+            }
+        ],
+        "difficile": [
+            {
+                "question": "Quel théorème fondamental des systèmes distribués énonce qu'il est impossible de garantir simultanément la Cohérence, la Disponibilité et la Tolérance au partitionnement ?",
+                "options": ["Le théorème de Bayes", "Le théorème de CAP (Brewer)", "Le théorème des quatre couleurs", "La loi de Moore"],
+                "correct": 1
+            },
+            {
+                "question": "Quel mécanisme de gestion de la mémoire dans les moteurs JavaScript (comme V8) permet de récupérer automatiquement la mémoire allouée aux objets non référencés ?",
+                "options": ["Le garbage collection (ramasse-miettes)", "La pagination dynamique", "Le pointeur intelligent unique", "L'allocation stack-overflow"],
+                "correct": 0
+            },
+            {
+                "question": "Quel design pattern architectural sépare la représentation des données de l'interface utilisateur tout en introduisant un médiateur pour gérer les interactions complexes de l'UI ?",
+                "options": ["MVC", "MVP", "MVVM", "Flux"],
+                "correct": 2
+            },
+            {
+                "question": "Dans le contexte des bases de données relationnelles, quel niveau d'isolation des transactions prévient les 'lectures sales' (dirty reads), les 'lectures non répétables' et les 'lectures fantômes' ?",
+                "options": ["Read Uncommitted", "Read Committed", "Repeatable Read", "Serializable"],
+                "correct": 3
+            },
+            {
+                "question": "Quel algorithme de consensus est couramment utilisé dans les systèmes distribués tolérants aux pannes (comme dans etcd ou Consul) pour élire un leader ?",
+                "options": ["Paxos", "Raft", "Proof of Work", "Bully algorithm"],
+                "correct": 1
+            },
+            {
+                "question": "Quelle est la complexité temporelle dans le pire des cas (worst-case) de l'algorithme de tri rapide (Quicksort) lorsque le pivot est mal choisi ?",
+                "options": ["O(n log n)", "O(n)", "O(n^2)", "O(log n)"],
+                "correct": 2
+            },
+            {
+                "question": "Quel type d'attaque par canal auxiliaire (side-channel attack) cible la prédiction de branchement et le cache des processeurs modernes ?",
+                "options": ["Spectre et Meltdown", "Buffer Overflow", "Cross-Site Scripting", "CSRF"],
+                "correct": 0
+            },
+            {
+                "question": "Dans les promesses JavaScript, quel opérateur permet d'attendre séquentiellement ou en parallèle la résolution de plusieurs promesses ?",
+                "options": ["Promise.all()", "Promise.wait()", "Promise.sync()", "Promise.resolveAll()"],
+                "correct": 0
+            },
+            {
+                "question": "Quel est le principe SOLID qui stipule qu'une classe ne devrait jamais avoir qu'une seule raison de changer ?",
+                "options": ["Single Responsibility Principle (SRP)", "Open/Closed Principle", "Liskov Substitution Principle", "Interface Segregation Principle"],
+                "correct": 0
+            },
+            {
+                "question": "Quel protocole de chiffrement et d'échange de clés est à la base de la sécurité des connexions TLS 1.3 modernes ?",
+                "options": ["RSA-1024", "Diffie-Hellman éphémère (ECDHE)", "MD5 handshake", "DES standard"],
+                "correct": 1
+            },
+            {
+                "question": "Qu'est-ce qu'une 'Closure' (fermeture) en programmation fonctionnelle / JavaScript ?",
+                "options": ["Une fonction qui supprime les variables globales", "Une fonction combinée avec des références à son environnement lexical environnant", "Un bloc de code qui s'exécute à la fermeture du programme", "Une méthode pour fermer un flux réseau"],
+                "correct": 1
+            },
+            {
+                "question": "Quel algorithme de hachage cryptographique de la famille SHA-3 a été standardisé par le NIST en 2015 comme alternative robuste à SHA-2 ?",
+                "options": ["Keccak", "MD4", "SHA-1", "RIPEMD-160"],
+                "correct": 0
+            },
+            {
+                "question": "Dans le modèle d'acteur (Actor model) utilisé pour la concurrence (ex: Erlang, Akka), comment les acteurs communiquent-ils entre eux ?",
+                "options": ["Par mémoire partagée et mutex", "Par échange de messages non bloquants", "Par appels de méthodes synchrones globaux", "Par des pointeurs directs"],
+                "correct": 1
+            },
+            {
+                "question": "Quel problème d'accès aux bases de données se produit lorsqu'une requête de niveau supérieur charge une collection, mais que chaque élément enfant déclenche une requête supplémentaire séparée ?",
+                "options": ["Le problème des N+1 requêtes", "Le deadlock persistant", "La fuite de curseur", "Le verrouillage optimiste"],
+                "correct": 0
+            },
+            {
+                "question": "Quel composant d'un moteur de recherche et d'indexation comme Elasticsearch est responsable du stockage et de l'indexation textuelle inversée ?",
+                "options": ["Un index Lucene inversé", "Une table relationnelle B-Tree", "Un buffer circulaire RAM", "Un fichier CSV séquentiel"],
+                "correct": 0
+            },
+            {
+                "question": "Quel design pattern structurel permet d'attacher dynamiquement de nouvelles responsabilités à un objet en le plaçant dans des objets enveloppes (wrappers) ?",
+                "options": ["Decorator", "Adapter", "Facade", "Proxy"],
+                "correct": 0
+            },
+            {
+                "question": "Dans le protocole TCP, quel mécanisme permet d'éviter la congestion du réseau en ajustant dynamiquement la quantité de données envoyées sans acquittement ?",
+                "options": ["La fenêtre de congestion (Congestion Window / Slow Start)", "Le contrôle de parité horizontale", "Le multiplexage UDP", "L'encapsulation IP"],
+                "correct": 0
+            },
+            {
+                "question": "Quel est l'objectif principal de l'utilisation d'un mécanisme de verrouillage optimiste (Optimistic Concurrency Control) par rapport au verrouillage pessimiste ?",
+                "options": ["Bloquer les lignes de la base de données dès la lecture", "Permettre les accès concurrents élevés en supposant peu de conflits et en vérifiant les collisions à la validation", "Supprimer totalement la base de données en cas d'erreur", "Augmenter la latence réseau"],
+                "correct": 1
+            },
+            {
+                "question": "Dans le contexte de la compilation JIT (Just-In-Time) comme dans la JVM ou V8, qu'est-ce que le profilage d'exécution (Type Feedback) ?",
+                "options": ["La mesure de la taille du code source en kilo-octets", "L'observation des types de données réellement manipulés à l'exécution pour optimiser le code machine généré", "Le calcul du temps de téléchargement du fichier JavaScript", "L'analyse statique des erreurs de syntaxe avant compilation"],
+                "correct": 1
+            },
+            {
+                "question": "Quel problème de sécurité web se produit lorsqu'un site malveillant force le navigateur d'un utilisateur authentifié à exécuter des actions non désirées sur une application tierce de confiance ?",
+                "options": ["CSRF (Cross-Site Request Forgery)", "XSS Reflected", "SQL Injection", "Man-in-the-Middle"],
+                "correct": 0
+            },
+            {
+                "question": "Quel type de structure de données probabiliste permet de tester très rapidement et avec un taux d'erreur contrôlé si un élément appartient à un ensemble ?",
+                "options": ["Un filtre de Bloom (Bloom Filter)", "Une table de hachage linéaire", "Un arbre AVL", "Une liste chaînée double"],
+                "correct": 0
+            },
+            {
+                "question": "Dans les systèmes de bases de données, que fait un index de type B-Tree (Arbre B) ?",
+                "options": ["Il stocke les données dans un ordre aléatoire non trié", "Il maintient les données triées pour permettre des recherches, des insertions et des suppressions en temps logarithmique O(log n)", "Il supprime automatiquement les doublons sans condition", "Il compresse les fichiers images du disque"],
+                "correct": 1
+            },
+            {
+                "question": "Quel paradigme d'architecture réseau privilégie l'échange de messages asynchrones via un intermédiaire (broker) plutôt qu'un appel direct point à point ?",
+                "options": ["L'architecture orientée messages / pub-sub (EDA)", "L'architecture monolithique synchrone", "Le protocole FTP direct", "L'API RPC synchrone"],
+                "correct": 0
+            },
+            {
+                "question": "Quel est le rôle du Garbage Collector basé sur les générations (Generational Garbage Collection) ?",
+                "options": ["Traiter tous les objets de la même manière sans distinction d'âge", "Capitaliser sur le fait que la majorité des objets meurent jeunes pour nettoyer en priorité la 'jeune génération'", "Stocker les données sur plusieurs générations de serveurs cloud", "Empêcher le vieillissement du code source"],
+                "correct": 1
+            },
+            {
+                "question": "Dans le langage C++ ou Rust, qu'est-ce que le concept de RAII (Resource Acquisition Is Initialization) ?",
+                "options": ["Une méthode pour initialiser la base de données au démarrage", "L'association de l'acquisition d'une ressource à la durée de vie (scope) d'un objet", "Un algorithme de tri parallèle sur GPU", "Une technique de compression de paquets réseau"],
+                "correct": 1
+            },
+            {
+                "question": "Quel mécanisme de contrôle d'accès dans les microservices permet de propager l'identité de l'utilisateur à travers les différents services internes de manière sécurisée ?",
+                "options": ["L'utilisation de jetons porteurs (Bearer Tokens / JWT) propagés dans les en-têtes HTTP", "L'utilisation de mots de passe en clair dans chaque requête", "La désactivation de tout contrôle de sécurité interne", "Le stockage local des identifiants sur chaque serveur"],
+                "correct": 0
+            },
+            {
+                "question": "Qu'est-ce qu'une faille de type 'Race Condition' (condition de concurence critique) ?",
+                "options": ["Un bug de vitesse d'affichage sur les écrans 144Hz", "Une vulnérabilité où le comportement du système dépend de l'ordre imprévisible d'exécution de processus concurrents", "Une attaque par saturation de bande passante réseau", "Une erreur de calcul dans les boucles for"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est l'intérêt d'utiliser l'algorithme de hachage bcrypt ou Argon2 plutôt que SHA-256 simple pour stocker des mots de passe ?",
+                "options": ["Ils sont beaucoup plus rapides à calculer pour les attaquants", "Ils intègrent un facteur de coût (lenteur volontaire) et un 'sel' (salt) aléatoire pour contrer les attaques par Rainbow Tables", "Ils génèrent des empreintes plus courtes de 4 octets", "Ils permettent de déchiffrer le mot de passe en cas d'oubli"],
+                "correct": 1
+            },
+            {
+                "question": "Dans le protocole HTTP/2, quelle innovation majeure permet d'envoyer plusieurs requêtes et réponses en parallèle sur une seule et unique connexion TCP ?",
+                "options": ["Le multiplexage de flux (Multiplexing)", "Le chiffrement obligatoire par défaut", "La compression des images en WebP", "L'élimination des en-têtes HTTP"],
+                "correct": 0
+            },
+            {
+                "question": "Quel principe de conception logicielle (SOLID) énonce qu'une classe ne doit pas être forcée de dépendre d'interfaces qu'elle n'utilise pas ?",
+                "options": ["Interface Segregation Principle (ISP)", "Dependency Inversion Principle", "Single Responsibility Principle", "Open/Closed Principle"],
+                "correct": 0
+            },
+            {
+                "question": "Dans la théorie des graphes et les algorithmes de routage, que calcule l'algorithme de Dijkstra ?",
+                "options": ["Le chemin le plus court d'un sommet source vers tous les autres sommets dans un graphe à poids positifs", "La circulation maximale dans un réseau de tuyaux", "L'arbre couvrant de poids minimum", "La coloration optimale des sommets"],
+                "correct": 0
+            },
+            {
+                "question": "Quel problème d'architecture logicielle survient lorsque des microservices deviennent trop interconnectés et dépendants au point de perdre les avantages de la décentralisation ?",
+                "options": ["Un monolithe distribué", "Un pattern Saga", "Une base de données polyglotte", "Un registre de service"],
+                "correct": 0
+            },
+            {
+                "question": "Quel est le comportement d'une fonction récursive terminale (Tail Call Recursion) optimisée par certains compilateurs ?",
+                "options": ["Elle provoque systématiquement un Stack Overflow", "Elle réutilise le cadre de pile (stack frame) courant pour éviter l'épuisement de la mémoire", "Elle s'exécute de manière asynchrone sur un autre thread", "Elle transforme la récursion en boucle infinie"],
+                "correct": 1
+            },
+            {
+                "question": "Quel mécanisme de synchronisation bas niveau est utilisé pour implémenter des sections critiques dans les systèmes d'exploitation multi-cœurs sans bloquer le thread (attente active optimisée) ?",
+                "options": ["Un Spinlock", "Un sémaphore lourd", "Une exception globale", "Un tube nommé (Pipe)"],
+                "correct": 0
+            },
+            {
+                "question": "Dans les architectures orientées événements (Event Sourcing), quel est le principe de stockage des données ?",
+                "options": ["Mettre à jour directement l'état courant dans une unique ligne de table", "Stocker la séquence immuable de tous les événements métier qui ont conduit à l'état actuel", "Effacer l'historique dès que la transaction est validée", "Stocker uniquement les données en mémoire cache volatile"],
+                "correct": 1
+            },
+            {
+                "question": "Quel type de certificat SSL/TLS valide non seulement le nom de domaine, mais exige également une vérification physique et légale approfondie de l'entreprise émettrice ?",
+                "options": ["Certificat DV (Domain Validated)", "Certificat EV (Extended Validation)", "Certificat Wildcard", "Certificat auto-signé"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est l'effet de l'utilisation du mot-clé `volatile` en programmation concurrente (ex: en Java ou C) ?",
+                "options": ["Il supprime la variable de la mémoire RAM", "Il garantit que les lectures et écritures de la variable se font directement en mémoire principale, évitant les caches de processeur locaux obsolètes", "Il chiffre la variable en mémoire", "Il rend la variable constante et inchangeable"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est le rôle d'un proxy de messagerie ou d'un bus d'événements comme Apache Kafka dans une architecture d'entreprise ?",
+                "options": ["Stocker les fichiers HTML des sites web", "Permettre le stockage persistant, hautement débit et découplé de flux massifs d'événements en temps réel", "Remplacer complètement les bases de données relationnelles pour l'analyse OLAP", "Gérer les permissions des utilisateurs Active Directory"],
+                "correct": 1
+            },
+            {
+                "question": "Dans le contexte de la sécurité des applications web, qu'est-ce qu'une politique CSP (Content Security Policy) ?",
+                "options": ["Un protocole de chiffrement des mots de passe", "Un en-tête HTTP permettant de restreindre les sources de chargement des scripts, images et ressources pour contrer les attaques XSS", "Une méthode de déploiement continu sur le cloud", "Une norme de codage pour le langage C++"],
+                "correct": 1
+            },
+            {
+                "question": "Quel algorithme de détection de cycles dans un graphe ou une liste chaînée utilise deux pointeurs avançant à des vitesses différentes (le lièvre et la tortue) ?",
+                "options": ["L'algorithme de Floyd (Tortoise and Hare)", "L'algorithme de Dijkstra", "L'algorithme de Kruskal", "Le parcours en largeur (BFS)"],
+                "correct": 0
+            },
+            {
+                "question": "Quel est l'inconvénient majeur de l'utilisation d'une structure de données de type 'Liste Chaînée' (Linked List) par rapport à un tableau (Array) standard en mémoire ?",
+                "options": ["L'impossibilité d'ajouter des éléments", "L'absence d'accès direct indexé (O(n) pour accéder au i-ème élément) et une moins bonne localité cache", "Une consommation de mémoire toujours inférieure", "Un tri automatique obligatoire de tous les éléments"],
+                "correct": 1
+            },
+            {
+                "question": "Quel standard d'architecture logicielle, souvent utilisé avec Kubernetes, permet de gérer la sécurité, le traçage et le routage du trafic réseau inter-services (Service Mesh) ?",
+                "options": ["Istio / Linkerd", "React / Vue", "Webpack / Vite", "JUnit / Mocha"],
+                "correct": 0
+            },
+            {
+                "question": "Dans les bases de données distribuées, qu'est-ce que le partitionnement horizontal (Sharding) ?",
+                "options": ["La copie identique de toute la base sur 10 serveurs différents", "La division d'une grande table en plusieurs sous-ensembles de lignes répartis sur plusieurs instances de serveurs", "Le tri alphabétique des colonnes textuelles", "La compression des fichiers journaux"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est le rôle d'un compilateur Just-In-Time (JIT) dans l'exécution de code bytecode (comme dans la JVM) ?",
+                "options": ["Traduire tout le code en binaire avant le lancement de l'application", "Identifier les portions de code fréquemment exécutées (hot spots) et les compiler en code machine natif pendant l'exécution", "Interpréter le code ligne par ligne sans jamais l'optimiser", "Gérer l'interface graphique de l'application"],
+                "correct": 1
+            },
+            {
+                "question": "Quel concept de programmation orientée objet permet de redéfinir une méthode héritée de la classe parente dans la classe fille ?",
+                "options": ["L'encapsulation", "Le polymorphisme de sous-typage / redéfinition (Overriding)", "La surcharge (Overloading)", "L'instanciation abstraite"],
+                "correct": 1
+            },
+            {
+                "question": "Quel type d'attaque par déni de service (DDoS) exploite la complexité algorithmique des structures de données (comme les tables de hachage) en envoyant des requêtes spécifiquement conçues pour provoquer des collisions de hachage massives ?",
+                "options": ["Hash Collision Attack", "Buffer Overflow", "SQL Injection", "Man-in-the-Middle"],
+                "correct": 0
+            },
+            {
+                "question": "Dans le contrôle de version Git, quelle est la différence fondamentale entre `git merge` et `git rebase` ?",
+                "options": ["Aucune, ce sont des synonymes stricts", "`merge` crée un commit de fusion préservant l'historique non linéaire, tandis que `rebase` réécrit l'historique en déplaçant les commits sur une nouvelle base linéaire", "`rebase` supprime définitivement le code des autres branches", "`merge` ne fonctionne qu'en local sans dépôt distant"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est l'objectif d'utiliser un pattern architectural de type 'CQRS' (Command Query Responsibility Segregation) ?",
+                "options": ["Séparer les modèles de lecture (Query) et d'écriture (Command) pour optimiser indépendamment leurs performances et leur scalabilité", "Fusionner toutes les bases de données en un seul fichier texte", "Supprimer les couches de sécurité des API", "Accélérer l'écriture du code source par les développeurs"],
+                "correct": 0
+            },
+            {
+                "question": "Quel mécanisme de sécurité cryptographique garantit l'intégrité et l'authenticité d'un message envoyé via un canal non sécurisé en combinant une clé secrète et une fonction de hachage ?",
+                "options": ["Un HMAC (Hash-based Message Authentication Code)", "Un simple hachage MD5", "Un chiffrement symétrique DES", "Une signature en clair"],
+                "correct": 0
+            },
+            {
+                "question": "Quel problème d'architecture de microservices résout le pattern 'Saga' ?",
+                "options": ["La gestion des transactions distribuées de longue durée à travers plusieurs services sans verrouillage global", "Le téléchargement des images sur le cloud", "La compression des logs applicatifs", "L'authentification unique des utilisateurs (SSO)"],
+                "correct": 0
+            },
+            {
+                "question": "Quel est le principe du tri fusion (Mergesort), qui lui garantit une complexité temporelle de O(n log n) dans tous les cas ?",
+                "options": ["Diviser récursivement le tableau en moitiés, les trier, puis les fusionner (Diviser pour régner)", "Choisir un pivot aléatoire et échanger les éléments", "Parcourir le tableau de gauche à droite en comparant les voisins adjacents", "Compter les occurrences de chaque élément dans un tableau de fréquences"],
+                "correct": 0
+            },
+            {
+                "question": "Dans les systèmes d'exploitation, qu'est-ce qu'un sémaphore (inventé par Edsger Dijkstra) ?",
+                "options": ["Une variable de contrôle d'accès partagée utilisée pour gérer la synchronisation et l'accès concurrent des processus à une ressource limitée", "Un signal d'erreur matériel envoyé par le processeur en cas de surchauffe", "Un protocole réseau pour les routeurs", "Un espace de stockage persistant sur le disque dur"],
+                "correct": 0
+            },
+            {
+                "question": "Quel type d'attaque de désérialisation (Insecure Deserialization) permet à un attaquant d'exécuter du code arbitraire à distance sur un serveur ?",
+                "options": ["L'injection d'objets sérialisés malveillants manipulés pour exploiter la logique de chargement de classes", "Le vol de cookies de session HTTP", "L'interception de requêtes DNS", "L'altération de feuilles de style CSS"],
+                "correct": 0
+            },
+            {
+                "question": "Quel est l'avantage de l'utilisation d'une base de données orientée graphe (comme Neo4j) par rapport à une base relationnelle classique pour des données fortement interconnectées ?",
+                "options": ["Des performances de parcours de relations complexes exponentiellement plus rapides et un modèle naturel orienté nœuds/arêtes", "Une absence totale de besoin en mémoire vive", "Un stockage sur fichier texte unique", "Une compatibilité exclusive avec le langage HTML"],
+                "correct": 0
+            },
+            {
+                "question": "Quel concept de conception logicielle (principe SOLID) stipule que les objets d'une application doivent pouvoir être remplacés par des instances de leurs sous-types sans modifier la correction du programme ?",
+                "options": ["Liskov Substitution Principle (LSP)", "Single Responsibility Principle", "Interface Segregation Principle", "Open/Closed Principle"],
+                "correct": 0
+            },
+            {
+                "question": "Dans les moteurs de bases de données, qu'est-ce qu'un plan d'exécution de requête (Query Execution Plan) ?",
+                "options": ["Le schéma visuel de la base de données dessiné par l'architecte", "La feuille de route détaillée générée par l'optimiseur de requêtes indiquant les méthodes d'accès exactes (ex: Index Scan, Hash Join)", "Le calendrier des sauvegardes automatiques de nuit", "Le journal des erreurs de syntaxe SQL"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est le rôle du protocole TLS (Transport Layer Security) dans la pile réseau ?",
+                "options": ["Fournir un canal de communication sécurisé, chiffré et authentifié entre deux applications sur une couche intermédiaire (au-dessus de TCP)", "Remplacer complètement l'adresse IP de la machine", "Attribuer des noms de domaine aux serveurs web", "Gérer l'affichage graphique des fenêtres du navigateur"],
+                "correct": 0
+            },
+            {
+                "question": "Dans le contexte de la programmation concurrente en Java, que garantit le mot-clé `synchronized` ?",
+                "options": ["Que la méthode ou le bloc de code ne peut être exécuté que par un seul thread à la fois sur un moniteur donné (exclusion mutuelle)", "Que le code s'exécutera toujours deux fois plus vite", "Que la mémoire RAM ne sera jamais saturée", "Que les variables locales seront effacées instantanément"],
+                "correct": 0
+            },
+            {
+                "question": "Quel est le principe d'une attaque par force brute (Brute Force Attack) ?",
+                "options": ["Deviner un mot de passe ou une clé en testant systématiquement toutes les combinaisons possibles", "Inonder un serveur de faux trafic réseau", "Modifier le code source d'un site web via une faille XSS", "Écouter les ondes électromagnétiques d'un clavier"],
+                "correct": 0
+            }
+        ]
+    },
+    "science": {
+        "facile": [
+            {
+                "question": "Quel est le symbole chimique de l'eau ?",
+                "options": ["CO2", "H2O", "O2", "N2"],
+                "correct": 1
+            },
+            {
+                "question": "Quelle est la planète la plus proche du Soleil ?",
+                "options": ["Vénus", "Mercure", "Mars", "Jupiter"],
+                "correct": 1
+            },
+            {
+                "question": "Quel gaz les plantes absorbent-elles principalement pour la photosynthèse ?",
+                "options": ["Oxygène", "Azote", "Dioxyde de carbone", "Hydrogène"],
+                "correct": 2
+            },
+            {
+                "question": "Combien de os environ compte le corps humain adulte ?",
+                "options": ["106", "206", "306", "406"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est l'élément chimique le plus abondant dans l'univers ?",
+                "options": ["L'oxygène", "Le carbone", "L'hydrogène", "L'azote"],
+                "correct": 2
+            },
+            {
+                "question": "Quelle est la vitesse de la lumière dans le vide (environ) ?",
+                "options": ["300 000 km/s", "1 500 km/s", "30 000 km/s", "3 000 000 km/s"],
+                "correct": 0
+            },
+            {
+                "question": "Quel organe du corps humain est responsable de la filtration du sang et de la production d'urine ?",
+                "options": ["Le cœur", "Les reins", "Le foie", "Les poumons"],
+                "correct": 1
+            },
+            {
+                "question": "Quel scientifique a formulé la théorie de la relativité restreinte et générale ?",
+                "options": ["Isaac Newton", "Albert Einstein", "Galilée", "Nikola Tesla"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est le nom de notre galaxie ?",
+                "options": ["Andromède", "La Voie lactée", "Sombrero", "Le Grand Nuage de Magellan"],
+                "correct": 1
+            },
+            {
+                "question": "Quelle est la température de congélation de l'eau en degrés Celsius ?",
+                "options": ["-10°C", "0°C", "100°C", "4°C"],
+                "correct": 1
+            },
+            {
+                "question": "Quel type d'animal est la baleine ?",
+                "options": ["Un poisson", "Un reptile", "Un mammifère", "Un amphibien"],
+                "correct": 2
+            },
+            {
+                "question": "Quel est le symbole chimique de l'or ?",
+                "options": ["Ag", "Au", "Pb", "Fe"],
+                "correct": 1
+            },
+            {
+                "question": "Combien de paires de chromosomes possède normalement une cellule humaine saine ?",
+                "options": ["21", "23", "46", "12"],
+                "correct": 1
+            },
+            {
+                "question": "Quelle force invisible maintient les objets attachés à la surface de la Terre ?",
+                "options": ["Le magnétisme", "La gravité", "L'électricité", "La force centrifuge"],
+                "correct": 1
+            }
+        ],
+        "moyen": [
+            {
+                "question": "Quel est l'élément chimique dont le symbole est Fe ?",
+                "options": ["Fluor", "Fer", "Fermium", "Francium"],
+                "correct": 1
+            },
+            {
+                "question": "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?",
+                "options": ["1965", "1969", "1971", "1958"],
+                "correct": 1
+            },
+            {
+                "question": "Comment appelle-t-on une galaxie qui a la forme d'un disque avec des bras spiraux ?",
+                "options": ["Galaxie elliptique", "Galaxie spirale", "Galaxie irrégulière", "Galaxie lenticulaire"],
+                "correct": 1
+            },
+            {
+                "question": "Quel gaz compose la majeure partie de l'atmosphère de la Terre ?",
+                "options": ["L'oxygène", "Le dioxyde de carbone", "L'azote", "L'argon"],
+                "correct": 2
+            },
+            {
+                "question": "Quelle est la plus grande lune de Saturne ?",
+                "options": ["Europa", "Ganymède", "Titan", "Io"],
+                "correct": 2
+            }
+        ],
+        "difficile": [
+            {
+                "question": "Quel physicien a proposé le principe d'incertitude en mécanique quantique ?",
+                "options": ["Niels Bohr", "Erwin Schrödinger", "Werner Heisenberg", "Max Planck"],
+                "correct": 2
+            },
+            {
+                "question": "Quel est le nom du processus par lequel une étoile massive explose en fin de vie ?",
+                "options": ["Une nébuleuse", "Une supernova", "Un trou noir", "Une naine blanche"],
+                "correct": 1
+            },
+            {
+                "question": "Quel est l'isotope radioactif du carbone principalement utilisé pour la datation archéologique ?",
+                "options": ["Carbone-12", "Carbone-13", "Carbone-14", "Carbone-10"],
+                "correct": 2
+            }
+        ]
+    }
+}

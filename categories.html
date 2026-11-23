@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Challenge - Catégories (Mode Clair)</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <style>
+        @media (max-width: 639.98px) {
+            #categories-container {
+                display: grid !important;
+                grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+                gap: 0.75rem !important;
+            }
+            #categories-container .category-card {
+                padding: 0.875rem !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 min-h-screen font-sans selection:bg-amber-400 selection:text-slate-950">
+
+    <!-- En-tête / Barre de navigation -->
+    <header class="border-b border-slate-200 bg-white/90 backdrop-blur-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <a href="index.html" class="text-xl sm:text-2xl font-black bg-gradient-to-r from-amber-500 to-indigo-600 bg-clip-text text-transparent flex items-center gap-1">
+                    Quiz <span class="text-amber-500">⚡</span>
+                </a>
+                <span class="text-xs font-bold tracking-widest text-slate-500 uppercase border-l border-slate-300 pl-2">Challenge</span>
+            </div>
+
+            <!-- Navigation Desktop -->
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="index.html" class="text-slate-600 hover:text-indigo-600 transition-colors">Accueil</a>
+                <a href="categories.html" class="text-amber-600 font-semibold transition-colors">Catégories</a>
+                <a href="leaderboard.html" class="text-slate-600 hover:text-indigo-600 transition-colors">Classement</a>
+                <a href="challenge.html" class="text-slate-600 hover:text-indigo-600 transition-colors">Défis</a>
+                <a href="profile.html" class="text-slate-600 hover:text-indigo-600 transition-colors">Profil</a>
+            </nav>
+
+            <div class="flex items-center gap-3">
+                <!-- Lien direct vers le Mode Sombre -->
+                <a href="categories-sombre.html" aria-label="Passer en mode sombre" class="p-2.5 rounded-full bg-slate-900/80 border border-slate-200 text-slate-700 hover:bg-slate-200 transition-all shadow-sm flex items-center justify-center">
+                    <span class="text-lg">🌙</span>
+                </a>
+
+                <!-- Bouton Menu Hamburger Mobile -->
+                <button id="menu-btn" aria-label="Menu" class="md:hidden p-2.5 rounded-xl bg-slate-100 border border-slate-200 text-slate-700 hover:bg-slate-200 transition-all">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+
+                
+            </div>
+        </div>
+
+        <!-- Menu Mobile Déroulant -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-4 space-y-2 shadow-lg">
+            <a href="index.html" class="block px-3 py-2 rounded-lg text-slate-700 hover:bg-slate-100 font-medium">Accueil</a>
+            <a href="categories.html" class="block px-3 py-2 rounded-lg text-amber-600 bg-amber-50 font-semibold">Catégories</a>
+            <a href="leaderboard.html" class="block px-3 py-2 rounded-lg text-slate-700 hover:bg-slate-100 font-medium">Classement</a>
+            <a href="challenge.html" class="block px-3 py-2 rounded-lg text-slate-700 hover:bg-slate-100 font-medium">Défis</a>
+            <a href="profile.html" class="block px-3 py-2 rounded-lg text-slate-700 hover:bg-slate-100 font-medium">Profil</a>
+        </div>
+    </header>
+
+    <!-- Contenu Principal -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-10">
+        <div class="text-center space-y-3">
+            <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-slate-900">Choisis ta catégorie 🏆</h1>
+            <p class="text-slate-600 text-sm sm:text-base">Sélectionne une catégorie et un niveau pour commencer</p>
+        </div>
+
+        <!-- Grille des Catégories (2 colonnes sur mobile, 2 sur tablette, 3 sur grand écran) -->
+        <div id="categories-container" class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
+            <div data-category="informatique" class="category-card group bg-white border-2 border-indigo-600 rounded-2xl p-4 sm:p-6 cursor-pointer transition-all shadow-md text-center space-y-3 sm:space-y-4">
+                <div class="w-12 h-12 sm:w-16 sm:h-16 mx-auto bg-indigo-50 rounded-2xl flex items-center justify-center text-2xl sm:text-3xl group-hover:scale-110 transition-transform">💻</div>
+                <div>
+                    <h3 class="font-bold text-base sm:text-lg text-slate-900">Informatique</h3>
+                    <p class="text-xs text-slate-500 mt-1">200 questions</p>
+                </div>
+            </div>
+
+            <div data-category="science" class="category-card group bg-white border-2 border-slate-200 rounded-2xl p-4 sm:p-6 hover:border-indigo-600 cursor-pointer transition-all shadow-md text-center space-y-3 sm:space-y-4">
+                <div class="w-12 h-12 sm:w-16 sm:h-16 mx-auto bg-blue-50 rounded-2xl flex items-center justify-center text-2xl sm:text-3xl group-hover:scale-110 transition-transform">🔬</div>
+                <div>
+                    <h3 class="font-bold text-base sm:text-lg text-slate-900">Science</h3>
+                    <p class="text-xs text-slate-500 mt-1">200 questions</p>
+                </div>
+            </div>
+
+            <div data-category="football" class="category-card group bg-white border-2 border-slate-200 rounded-2xl p-4 sm:p-6 hover:border-indigo-600 cursor-pointer transition-all shadow-md text-center space-y-3 sm:space-y-4">
+                <div class="w-12 h-12 sm:w-16 sm:h-16 mx-auto bg-emerald-50 rounded-2xl flex items-center justify-center text-2xl sm:text-3xl group-hover:scale-110 transition-transform">⚽</div>
+                <div>
+                    <h3 class="font-bold text-base sm:text-lg text-slate-900">Football</h3>
+                    <p class="text-xs text-slate-500 mt-1">200 questions</p>
+                </div>
+            </div>
+
+            <div data-category="musique" class="category-card group bg-white border-2 border-slate-200 rounded-2xl p-4 sm:p-6 hover:border-indigo-600 cursor-pointer transition-all shadow-md text-center space-y-3 sm:space-y-4">
+                <div class="w-12 h-12 sm:w-16 sm:h-16 mx-auto bg-purple-50 rounded-2xl flex items-center justify-center text-2xl sm:text-3xl group-hover:scale-110 transition-transform">🎵</div>
+                <div>
+                    <h3 class="font-bold text-base sm:text-lg text-slate-900">Musique</h3>
+                    <p class="text-xs text-slate-500 mt-1">200 questions</p>
+                </div>
+            </div>
+
+            <div data-category="cinema" class="category-card group bg-white border-2 border-slate-200 rounded-2xl p-4 sm:p-6 hover:border-indigo-600 cursor-pointer transition-all shadow-md text-center space-y-3 sm:space-y-4">
+                <div class="w-12 h-12 sm:w-16 sm:h-16 mx-auto bg-rose-50 rounded-2xl flex items-center justify-center text-2xl sm:text-3xl group-hover:scale-110 transition-transform">🎬</div>
+                <div>
+                    <h3 class="font-bold text-base sm:text-lg text-slate-900">Cinéma</h3>
+                    <p class="text-xs text-slate-500 mt-1">200 questions</p>
+                </div>
+            </div>
+
+            <div data-category="mix" class="category-card group bg-white border-2 border-slate-200 rounded-2xl p-4 sm:p-6 hover:border-indigo-600 cursor-pointer transition-all shadow-md text-center space-y-3 sm:space-y-4">
+                <div class="w-12 h-12 sm:w-16 sm:h-16 mx-auto bg-amber-50 rounded-2xl flex items-center justify-center text-2xl sm:text-3xl group-hover:scale-110 transition-transform">🔥</div>
+                <div>
+                    <h3 class="font-bold text-base sm:text-lg text-slate-900">Mix</h3>
+                    <p class="text-xs text-slate-500 mt-1">Toutes catégories</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Choix du niveau -->
+        <div class="bg-white border border-slate-200 rounded-2xl p-6 space-y-4 text-center shadow-sm">
+            <h4 class="font-semibold text-sm text-slate-500 uppercase tracking-wider">Choisis le niveau</h4>
+            <div id="difficulty-container" class="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-xl mx-auto">
+                <button data-difficulty="facile" class="diff-btn p-3 rounded-xl border-2 border-emerald-500 bg-emerald-50 text-emerald-700 font-bold transition-all shadow-sm">Facile</button>
+                <button data-difficulty="moyen" class="diff-btn p-3 rounded-xl border-2 border-slate-200 text-slate-600 font-bold transition-all">Moyen</button>
+                <button data-difficulty="difficile" class="diff-btn p-3 rounded-xl border-2 border-slate-200 text-slate-600 font-bold transition-all">Difficile</button>
+            </div>
+
+            <div class="pt-4">
+                <button id="btn-start" class="inline-block w-full sm:w-auto bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-10 py-4 rounded-xl shadow-lg shadow-indigo-600/30 transition-all cursor-pointer">
+                    COMMENCER LE QUIZ ⚡
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Gestion du Menu Hamburger Mobile
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (menuBtn && mobileMenu) {
+            menuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+
+        // Gestion de la sélection interactive et sauvegarde
+        let selectedCategory = 'informatique';
+        let selectedDifficulty = 'facile';
+
+        document.querySelectorAll('.category-card').forEach(card => {
+            card.addEventListener('click', () => {
+                document.querySelectorAll('.category-card').forEach(c => {
+                    c.classList.remove('border-indigo-600', 'ring-2', 'ring-indigo-600/30');
+                    c.classList.add('border-slate-200');
+                });
+                card.classList.remove('border-slate-200');
+                card.classList.add('border-indigo-600', 'ring-2', 'ring-indigo-600/30');
+                selectedCategory = card.getAttribute('data-category');
+            });
+        });
+
+        document.querySelectorAll('.diff-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.diff-btn').forEach(b => {
+                    b.className = "diff-btn p-3 rounded-xl border-2 border-slate-200 text-slate-600 font-bold transition-all";
+                });
+                const diff = btn.getAttribute('data-difficulty');
+                if (diff === 'facile') {
+                    btn.className = "diff-btn p-3 rounded-xl border-2 border-emerald-500 bg-emerald-50 text-emerald-700 font-bold transition-all shadow-sm";
+                } else if (diff === 'moyen') {
+                    btn.className = "diff-btn p-3 rounded-xl border-2 border-amber-500 bg-amber-50 text-amber-700 font-bold transition-all shadow-sm";
+                } else {
+                    btn.className = "diff-btn p-3 rounded-xl border-2 border-rose-500 bg-rose-50 text-rose-700 font-bold transition-all shadow-sm";
+                }
+                selectedDifficulty = diff;
+            });
+        });
+
+        document.getElementById('btn-start').addEventListener('click', () => {
+            localStorage.setItem('selectedCategory', selectedCategory);
+            localStorage.setItem('selectedDifficulty', selectedDifficulty);
+            window.location.href = 'quiz.html';
+        });
+    </script>
+</body>
+</html>

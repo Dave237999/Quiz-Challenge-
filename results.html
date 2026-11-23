@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Challenge - Résultats (Mode Clair)</title>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="bg-slate-50 text-slate-900 min-h-screen font-sans selection:bg-amber-400 selection:text-slate-950">
+
+    <header class="border-b border-slate-200 bg-white/90 backdrop-blur-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <a href="index.html" class="text-xl sm:text-2xl font-black bg-gradient-to-r from-amber-500 to-indigo-600 bg-clip-text text-transparent flex items-center gap-1">
+                    Quiz <span class="text-amber-500">⚡</span>
+                </a>
+                <span class="text-xs font-bold tracking-widest text-slate-500 uppercase border-l border-slate-300 pl-2">Challenge</span>
+            </div>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="index.html" class="text-slate-600 hover:text-indigo-600 transition-colors">Accueil</a>
+                <a href="categories.html" class="text-slate-600 hover:text-indigo-600 transition-colors">Catégories</a>
+                <a href="leaderboard.html" class="text-slate-600 hover:text-indigo-600 transition-colors">Classement</a>
+                <a href="challenge.html" class="text-slate-600 hover:text-indigo-600 transition-colors">Défis</a>
+                <a href="profile.html" class="text-slate-600 hover:text-indigo-600 transition-colors">Profil</a>
+            </nav>
+            <div class="flex items-center gap-3">
+                <!-- Lien vers le mode sombre -->
+                <a href="results-sombre.html" aria-label="Passer en mode sombre" class="p-2.5 rounded-full bg-slate-900/80 border border-slate-200 text-slate-700 hover:bg-slate-200 transition-all shadow-sm flex items-center justify-center">
+                    <span class="text-lg">🌙</span>
+                </a>
+
+                <button id="menu-btn" class="md:hidden relative z-50 p-2.5 rounded-xl bg-slate-100 border border-slate-200 text-slate-700 hover:bg-slate-200 flex items-center justify-center">
+                    <svg id="menu-icon-svg" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden absolute top-20 left-0 w-full bg-white border-b border-slate-200 shadow-2xl py-4 px-6 space-y-3 z-40 transition-all">
+            <a href="index.html" class="block px-4 py-3 rounded-xl text-slate-700 hover:bg-slate-100 transition-colors text-base">Accueil</a>
+            <a href="categories.html" class="block px-4 py-3 rounded-xl text-slate-700 hover:bg-slate-100 transition-colors text-base">Catégories</a>
+            <a href="leaderboard.html" class="block px-4 py-3 rounded-xl text-slate-700 hover:bg-slate-100 transition-colors text-base">Classement</a>
+            <a href="challenge.html" class="block px-4 py-3 rounded-xl text-slate-700 hover:bg-slate-100 transition-colors text-base">Défis</a>
+            <a href="profile.html" class="block px-4 py-3 rounded-xl text-slate-700 hover:bg-slate-100 transition-colors text-base">Profil</a>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-10 space-y-8">
+        <div class="bg-white border border-slate-200 rounded-3xl p-6 sm:p-10 shadow-2xl text-center space-y-6">
+            <h1 class="text-2xl sm:text-3xl font-extrabold text-slate-900">🎉 FÉLICITATIONS !</h1>
+            <p class="text-sm text-slate-500">Tu as terminé le quiz avec brio.</p>
+
+            <!-- Grand rond central pour les POINTS -->
+            <div class="score-circle inline-flex flex-col items-center justify-center w-36 h-36 rounded-full border-4 border-emerald-500 bg-emerald-500/10">
+                <span id="score-text" class="text-3xl font-black text-slate-900">0</span>
+                <span class="text-xs tracking-widest text-slate-400 uppercase mt-1">Points</span>
+            </div>
+
+            <!-- Statistiques rapides de fin -->
+            <div class="grid grid-cols-3 gap-4 max-w-md mx-auto pt-2">
+                <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
+                    <span class="block text-xs text-slate-500">Temps</span>
+                    <span id="time-text" class="font-bold text-sm text-slate-900">00:00</span>
+                </div>
+                <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
+                    <span class="block text-xs text-slate-500">Série</span>
+                    <span id="streak-text" class="font-bold text-sm text-amber-600">🔥 0</span>
+                </div>
+                <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
+                    <span class="block text-xs text-slate-500">Note</span>
+                    <span id="note-text" class="font-bold text-sm text-emerald-600">0/10</span>
+                </div>
+            </div>
+
+            <!-- Badge débloqué dynamique -->
+            <div class="p-4 bg-indigo-50 border border-indigo-200 rounded-2xl flex items-center gap-4 max-w-sm mx-auto">
+                <span class="text-3xl">🛡️</span>
+                <div class="text-left">
+                    <h4 class="text-xs font-bold text-indigo-600 uppercase">Nouveau badge !</h4>
+                    <p id="badge-text" class="font-bold text-sm text-slate-900">Bronze</p>
+                </div>
+            </div>
+
+            <!-- Actions -->
+            <div class="flex flex-wrap justify-center gap-4 pt-4">
+                <a href="quiz.html" class="bg-amber-400 hover:bg-amber-300 text-slate-950 font-bold px-6 py-3 rounded-xl transition-all shadow-md">REJOUER</a>
+                <a href="categories.html" class="bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-6 py-3 rounded-xl transition-all shadow-md">CHANGER DE QUIZ</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="border-t border-slate-200 mt-16 py-8 text-center text-xs text-slate-500">
+        <p>©️ 2026 Quiz Challenge. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        // Chargement dynamique des résultats enregistrés dans le localStorage
+        document.addEventListener('DOMContentLoaded', () => {
+            const score = parseInt(localStorage.getItem('quizScore')) || 0;
+            const correct = parseInt(localStorage.getItem('quizCorrect')) || 0;
+            const total = parseInt(localStorage.getItem('quizTotal')) || 10;
+            const totalSeconds = parseInt(localStorage.getItem('quizTime')) || 0;
+            const streak = parseInt(localStorage.getItem('quizStreak')) || 0;
+
+            // 1. Formatage et affichage du temps
+            const timeEl = document.getElementById('time-text');
+            if (timeEl) {
+                if (totalSeconds < 60) {
+                    timeEl.textContent = `00:${totalSeconds < 10 ? '0' : ''}${totalSeconds}`;
+                } else {
+                    const minutes = Math.floor(totalSeconds / 60);
+                    const seconds = totalSeconds % 60;
+                    timeEl.textContent = `${minutes < 10 ? '0' : ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+                }
+            }
+
+            // 2. Affichage de la série
+            const streakEl = document.getElementById('streak-text');
+            if (streakEl) streakEl.textContent = `🔥 ${streak}`;
+
+            // 3. Attribution du badge selon les paliers de points
+            const badgeEl = document.getElementById('badge-text');
+            if (badgeEl) {
+                let badgeName = "Bronze (0 - 90 pts)";
+                if (score >= 300) {
+                    badgeName = "Diamant 💎 (300+ pts)";
+                } else if (score >= 200) {
+                    badgeName = "Or 🥇 (200 - 290 pts)";
+                } else if (score >= 100) {
+                    badgeName = "Argent 🥈 (100 - 190 pts)";
+                } else {
+                    badgeName = "Bronze 🥉 (0 - 90 pts)";
+                }
+                badgeEl.textContent = badgeName;
+            }
+        });
+
+        // Gestion du menu mobile
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const isOpen = mobileMenu.classList.toggle('hidden');
+            menuBtn.innerHTML = !isOpen ? `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>` : `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>`;
+        });
+        window.addEventListener('click', () => {
+            if (!mobileMenu.classList.contains('hidden')) {
+                mobileMenu.classList.add('hidden');
+                menuBtn.innerHTML = `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>`;
+            }
+        });
+    </script>
+
+    <!-- Script de surséance finale pour forcer l'affichage des points au centre -->
+    <script>
+        window.addEventListener('load', () => {
+            const score = localStorage.getItem('quizScore') || '0';
+            const correct = localStorage.getItem('quizCorrect') || '0';
+            const total = localStorage.getItem('quizTotal') || '10';
+
+            const scoreEl = document.getElementById('score-text');
+            if (scoreEl) scoreEl.textContent = score;
+
+            const noteEl = document.getElementById('note-text');
+            if (noteEl) noteEl.textContent = `${correct}/${total}`;
+        });
+    </script>
+</body>
+<script src="./js/main.js"></script>
+<script src="./js/storage.js"></script>
+</html>
